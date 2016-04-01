@@ -1,0 +1,83 @@
+/*////////////////////////////
+//////////////////////////////
+//////////////////////////////
+///////Main Style Sheet///////
+//////////////////////////////
+//////////////////////////////
+////////////////////////////*/
+
+
+/*Style for the body of the page*/
+body{
+    color: white;
+    background-color: black;
+    font-family: Verdana, serif;
+    font-size: 20px;
+}
+
+/*Style for the title*/
+header{
+    font-size: 40px;
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    width: 50%
+}
+
+/*Style for the website footer*/
+footer{
+    clear: both;
+    font-size: 9px;
+    width: 60%;
+    padding: 50px 0;
+}
+
+/*The navigation links at the top of the page*/
+nav{
+    padding-bottom: 50px;
+}
+
+/*Style for the name of each webpage*/
+.pageName{
+    color: green;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*All hyperlink styles*/
+a{
+    color: red;
+}
+
+/*When hyperlinks are hovered over*/
+a:hover{
+    background-color: yellow;
+    font-style: italic;
+}
+
+/*When the mouse button is pushed*/
+a:active{
+    background-color: red;
+    color: yellow;
+    font-style: normal;
+}
+
+/*Style for highlight text*/
+.highlight{
+    color: green;
+    font-style: italic;
+}
+
+/*Positioning of column 1*/
+.column1{
+    float: left;
+    width: 40%;
+    padding-right: 50px;
+    padding-bottom: 60px;
+}
+
+/*Positioning of column 2*/
+.column2{
+    float:left;
+    width: 40%;
+}
